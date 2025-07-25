@@ -22,7 +22,7 @@
             box-shadow: 0 4px 25px rgba(0, 0, 0, 0.1);
             color: #333333; /* Темно-серый текст для лучшей читаемости */
         }
-        #track-title {
+        #track-title, .congrats-heading {
             /* Заголовок с акцентным шрифтом */
             font-family: 'Playfair Display', serif;
         }
@@ -54,6 +54,14 @@
 <body class="flex items-center justify-center min-h-screen p-4">
 
     <div class="player-container w-full max-w-sm rounded-2xl p-6">
+
+        <!-- Поздравительное сообщение -->
+        <div class="congrats-message text-center mb-6 border-b border-gray-200 pb-6">
+            <h3 class="congrats-heading text-xl font-bold text-gray-800 mb-2">Дорогие Алиса и Влад!</h3>
+            <p class="text-sm text-gray-600 leading-relaxed">
+                В этот торжественный день, когда рождается ваша семья, от всей души желаем вам благополучия и крепкого здоровья. Эти композиции созданы благодаря нейросетям, и мы решили, что одного трека будет недостаточно для такого особенного случая. Поэтому с радостью дарим вам целый плейлист в подарок.
+            </p>
+        </div>
 
         <!-- Информация о треке -->
         <div class="track-info text-center mb-4">
